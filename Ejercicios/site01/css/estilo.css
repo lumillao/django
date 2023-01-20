@@ -1,0 +1,15 @@
+/* Este es un comentario en CSS */
+/* Selector de elemento */
+div {
+    background: rgb(85, 23, 192);
+}
+/* Selector de id */
+#centrado {
+    text-align: center;
+    color: darkorange;
+}
+
+.centrado {
+    background:coral;
+    text-align: center;
+}

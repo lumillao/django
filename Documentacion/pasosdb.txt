@@ -1,0 +1,8 @@
+alter session set "_ORACLE_SCRIPT" = true;
+
+create user c##prueba identified by prueba;
+
+grant connect, resource to c##prueba;
+
+alter user c##prueba default tablespace users quota unlimited on users;
+
